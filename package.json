@@ -1,0 +1,22 @@
+{
+  "name": "node-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gmrsagar/node-cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "Sagar Ghimire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmrsagar/node-cli/issues"
+  },
+  "homepage": "https://github.com/gmrsagar/node-cli#readme"
+}
