@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 'use strict'
 const path = require('path')
 const fs = require('fs')
@@ -32,4 +33,4 @@ const getDir = (dirname) => {
 	return sys
 }
 // console.log(sys)
-console.log(JSON.stringify(getDir(__dirname)))
+console.log(JSON.stringify(getDir(process.cwd())))

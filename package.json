@@ -1,10 +1,13 @@
 {
-  "name": "node-cli",
-  "version": "1.0.0",
-  "description": "",
+  "name": "node-dir-cli",
+  "version": "1.1.0",
+  "description": "Node CLI tool that converts the current directory to json format and outputs in console",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "node-dir-cli": "./index.js"
   },
   "repository": {
     "type": "git",
